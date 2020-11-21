@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ReactorKitStarter' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ReactorKitStarter
+
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxDataSources'
+  pod 'RxOptional'
+  pod 'RxViewController'
+  pod 'RxGesture'
+  pod 'RxAlamofire'
+  pod 'Alamofire'
+  pod 'Kingfisher'
+  pod 'SnapKit'
+  pod 'Then'
+  pod 'ReactorKit'
+  
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
+  
+  pod 'FirebaseFirestoreSwift'
+
+  target 'ReactorKitStarterTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ReactorKitStarterUITests' do
+    # Pods for testing
+  end
+
+end
